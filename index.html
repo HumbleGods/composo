@@ -10,10 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="showcase.css" />
 </head>
 <body>
 
-  <!-- Loading Screen -->
   <div id="loading-screen">
     <div class="loader-spinner">
       <div class="loader-ring-outer"></div>
@@ -26,7 +26,6 @@
   <div id="cursor-dot" aria-hidden="true"></div>
   <div id="cursor-ring" aria-hidden="true"></div>
 
-  <!-- Navbar -->
   <nav id="navbar">
     <div class="nav-inner">
       <button class="nav-logo" onclick="navScrollTo('home')">Cyken<span class="accent">.</span></button>
@@ -56,7 +55,6 @@
     </div>
   </nav>
 
-  <!-- Mobile Menu -->
   <div id="mobile-menu">
     <button onclick="navScrollTo('home')">Home</button>
     <button onclick="navScrollTo('about')">About</button>
@@ -70,7 +68,6 @@
 
   <main>
 
-    <!-- Hero -->
     <section id="home" class="hero">
       <canvas id="hero-canvas"></canvas>
       <div class="hero-overlay"></div>
@@ -107,7 +104,6 @@
       </button>
     </section>
 
-    <!-- About -->
     <section id="about" class="section bg-base">
       <div class="container">
         <div class="two-col">
@@ -117,20 +113,20 @@
               <div class="photo-overlay"></div>
               <div class="photo-label">
                 <p class="photo-name">Cyken C. Composo</p>
-                <p class="photo-loc"><i class="bi bi-geo-alt"></i> Del Carmen, Surigao del Norte, Philippines</p>
+                <p class="photo-loc"><i class="bi bi-geo-alt"></i>Siargao Island, Surigao del Norte, Philippines</p>
               </div>
             </div>
             <div class="stats-grid">
-              <div class="stat-card"><span class="stat-num">2+</span><span class="stat-lbl">Years Experience</span></div>
+              <div class="stat-card"><span class="stat-num">5+</span><span class="stat-lbl">Years Experience</span></div>
               <div class="stat-card"><span class="stat-num">3</span><span class="stat-lbl">Languages Spoken</span></div>
               <div class="stat-card"><span class="stat-num">2</span><span class="stat-lbl">Degrees Pursued</span></div>
-              <div class="stat-card"><span class="stat-num">5</span><span class="stat-lbl">Core Disciplines</span></div>
+              <div class="stat-card"><span class="stat-num">4</span><span class="stat-lbl">Core Disciplines</span></div>
             </div>
           </div>
           <div class="reveal">
             <span class="section-tag">About Me</span>
             <h2 class="section-title">Designer, Developer, Marketer &amp; Tech Expert — All in One</h2>
-            <p class="body-text">I'm Cyken C. Composo — a five-discipline professional combining graphic design, system development, digital marketing, computer technician skills, and IT expertise. My goal is to help businesses look great, run efficiently, and grow consistently.</p>
+            <p class="body-text">I'm Cyken C. Composo, a multi-disciplinary professional combining graphic design, system development, digital marketing, computer technician skills, and IT expertise. My goal is to help businesses look great, run efficiently, and grow consistently.</p>
             <p class="body-text">From crafting brand identities and developing custom software to managing digital marketing campaigns and repairing computer hardware, I bring a broad and practical skill set to every project.</p>
             <p class="body-text mb-section">With hands-on experience in public sector administration and private sales, I combine analytical thinking, visual communication, and technical problem-solving in ways that most specialists simply can't.</p>
             <h3 class="sub-heading"><i class="bi bi-mortarboard accent"></i> Education</h3>
@@ -159,13 +155,12 @@
       </div>
     </section>
 
-    <!-- Services -->
     <section id="services" class="section bg-alt">
       <div class="container">
         <div class="section-header reveal">
           <span class="section-tag">Services</span>
           <h2 class="section-title">What I Do Best</h2>
-          <p class="section-desc">Creative design, system development, results-driven marketing, and hands-on IT support — all under one roof.</p>
+          <p class="section-desc">Creative design, system development, results-driven marketing, and hands-on IT support all under one roof.</p>
         </div>
 
         <div class="svc-group reveal">
@@ -230,7 +225,6 @@
       </div>
     </section>
 
-    <!-- Portfolio -->
     <section id="portfolio" class="section bg-base">
       <div class="container">
         <div class="section-header reveal">
@@ -246,20 +240,20 @@
           <button class="filter-btn" data-filter="it">Computer Technician</button>
         </div>
         <div class="portfolio-grid" id="portfolio-grid">
-          <div class="pcard" data-category="graphic" data-title="Local Business Brand Identity" data-sub="Branding &amp; Logo" data-img="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=800" data-desc="Complete brand identity package for a local business including logo design, color palette, typography, and branded materials across print and digital.">
-            <div class="pcard-wrap"><img src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Local Business Brand Identity" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Branding &amp; Logo</p><h4>Local Business Brand Identity</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
+          <div class="pcard" data-category="graphic" data-title="Local Business Brand Identity" data-sub="Branding &amp; Logo" data-img="./upload/design2.png" data-desc="Complete brand identity package for a local business including logo design, color palette, typography, and branded materials across print and digital.">
+            <div class="pcard-wrap"><img src="./upload/design3.png" alt="Local Business Brand Identity" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Branding &amp; Logo &amp; Print Design</p><h4>Local Business Brand Identity</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
           </div>
           <div class="pcard" data-category="system" data-title="Inventory Management System" data-sub="System Development" data-img="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800" data-desc="Designed and developed a desktop-based inventory management system for a small retail business — featuring product tracking, stock alerts, and sales reporting.">
-            <div class="pcard-wrap"><img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Inventory Management System" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">System Development</p><h4>Inventory Management System</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
+            <div class="pcard-wrap"><img src="./upload/product.png" alt="Inventory Management System" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">System Development</p><h4>Inventory Management System</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
           </div>
           <div class="pcard" data-category="marketing" data-title="Social Media Content Campaign" data-sub="Social Media Marketing" data-img="https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=800" data-desc="Designed and executed a social media content campaign for a retail brand, producing 30+ posts with consistent branding and significantly increased engagement.">
-            <div class="pcard-wrap"><img src="https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Social Media Content Campaign" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Social Media Marketing</p><h4>Social Media Content Campaign</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
+            <div class="pcard-wrap"><img src="/upload/4 cards.png" alt="Social Media Content Campaign" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Social Media Marketing</p><h4>Social Media Content Campaign</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
           </div>
           <div class="pcard" data-category="it" data-title="PC Repair &amp; Office Network Setup" data-sub="Computer Technician" data-img="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800" data-desc="Diagnosed and repaired 10+ desktop units, installed operating systems, configured a small office LAN network, and set up shared printing and file access.">
-            <div class="pcard-wrap"><img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400" alt="PC Repair" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Computer Technician</p><h4>PC Repair &amp; Office Network Setup</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
+            <div class="pcard-wrap"><img src="/upload/interact.png" alt="PC Repair" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Computer Technician</p><h4>PC Repair &amp; Office Network Setup</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
           </div>
-          <div class="pcard" data-category="graphic" data-title="Restaurant Menu &amp; Collateral" data-sub="Print Design" data-img="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800" data-desc="Full restaurant branding suite: menu layout, signage, flyers, and social media templates with a cohesive, premium visual identity.">
-            <div class="pcard-wrap"><img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Restaurant Menu" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Print Design</p><h4>Restaurant Menu &amp; Collateral</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
+          <div class="pcard" data-category="graphic" data-title="Restaurant Menu &amp; Collateral" data-sub="Print Design" data-img="./upload/recipe.png" data-desc="Full restaurant branding suite: menu layout, signage, flyers, and social media templates with a cohesive, premium visual identity.">
+            <div class="pcard-wrap"><img src="./upload/recipe.png" alt="Restaurant Menu" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Print Design</p><h4>Restaurant Menu &amp; Collateral</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
           </div>
           <div class="pcard" data-category="system" data-title="Student Information System" data-sub="Web System" data-img="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800" data-desc="Built a web-based student information system with enrollment management, grade encoding, and report generation using HTML, CSS, JavaScript, and MySQL.">
             <div class="pcard-wrap"><img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Student Information System" loading="lazy" /><div class="pcard-hover"><div><p class="pcard-sub">Web System</p><h4>Student Information System</h4></div><i class="bi bi-box-arrow-up-right"></i></div></div>
@@ -286,7 +280,6 @@
       </div>
     </section>
 
-    <!-- Figma Showcase -->
     <section class="section bg-alt">
       <div class="container">
         <div class="section-header reveal">
@@ -321,44 +314,44 @@
             <div class="skill-badge emerald-badge">5 Skills</div>
             <h3>Graphic Design</h3>
             <div class="skill-bars" data-color="emerald">
-              <div class="skill-item"><div class="ski-head"><span>Canva</span><span class="ski-pct accent">95%</span></div><div class="ski-track"><div class="ski-fill" data-w="95"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Adobe Photoshop</span><span class="ski-pct accent">82%</span></div><div class="ski-track"><div class="ski-fill" data-w="82"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Adobe Illustrator</span><span class="ski-pct accent">78%</span></div><div class="ski-track"><div class="ski-fill" data-w="78"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Logo &amp; Brand Design</span><span class="ski-pct accent">85%</span></div><div class="ski-track"><div class="ski-fill" data-w="85"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Social Media Graphics</span><span class="ski-pct accent">92%</span></div><div class="ski-track"><div class="ski-fill" data-w="92"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Canva</span><span class="ski-pct accent"></span></div><div class="ski-track"><div class="ski-fill" data-w="95"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Adobe Photoshop</span><span class="ski-pct accent"></span></div><div class="ski-track"><div class="ski-fill" data-w="82"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Adobe Illustrator</span><span class="ski-pct accent"></span></div><div class="ski-track"><div class="ski-fill" data-w="78"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Logo &amp; Brand Design</span><span class="ski-pct accent"></span></div><div class="ski-track"><div class="ski-fill" data-w="85"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Social Media Graphics</span><span class="ski-pct accent"></span></div><div class="ski-track"><div class="ski-fill" data-w="92"></div></div></div>
             </div>
           </div>
           <div class="skill-card reveal">
             <div class="skill-badge sky-badge">5 Skills</div>
             <h3>System Development</h3>
             <div class="skill-bars" data-color="sky">
-              <div class="skill-item"><div class="ski-head"><span>HTML &amp; CSS</span><span class="ski-pct sky-text">85%</span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="85"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>JavaScript Basics</span><span class="ski-pct sky-text">72%</span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="72"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Database Management (MySQL)</span><span class="ski-pct sky-text">75%</span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="75"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>System Analysis &amp; Design</span><span class="ski-pct sky-text">80%</span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="80"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>MS Office / Google Suite</span><span class="ski-pct sky-text">92%</span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="92"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>HTML &amp; CSS</span><span class="ski-pct sky-text"></span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="85"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>JavaScript Basics</span><span class="ski-pct sky-text"></span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="72"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Database Management (MySQL)</span><span class="ski-pct sky-text"></span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="75"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>System Analysis &amp; Design</span><span class="ski-pct sky-text"></span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="80"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>MS Office / Google Suite</span><span class="ski-pct sky-text"></span></div><div class="ski-track"><div class="ski-fill sky-fill" data-w="92"></div></div></div>
             </div>
           </div>
           <div class="skill-card reveal">
             <div class="skill-badge amber-badge">5 Skills</div>
             <h3>Digital Marketing</h3>
             <div class="skill-bars" data-color="amber">
-              <div class="skill-item"><div class="ski-head"><span>Social Media Marketing</span><span class="ski-pct amber-text">88%</span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="88"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Content Strategy</span><span class="ski-pct amber-text">85%</span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="85"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>SEO Fundamentals</span><span class="ski-pct amber-text">78%</span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="78"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Facebook Ads</span><span class="ski-pct amber-text">80%</span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="80"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Email Marketing</span><span class="ski-pct amber-text">75%</span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="75"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Social Media Marketing</span><span class="ski-pct amber-text"></span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="88"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Content Strategy</span><span class="ski-pct amber-text"></span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="85"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>SEO Fundamentals</span><span class="ski-pct amber-text"></span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="78"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Facebook Ads</span><span class="ski-pct amber-text"></span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="80"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Email Marketing</span><span class="ski-pct amber-text"></span></div><div class="ski-track"><div class="ski-fill amber-fill" data-w="75"></div></div></div>
             </div>
           </div>
           <div class="skill-card reveal">
             <div class="skill-badge blue-badge">5 Skills</div>
             <h3>Computer Technician &amp; IT</h3>
             <div class="skill-bars" data-color="blue">
-              <div class="skill-item"><div class="ski-head"><span>PC Repair &amp; Assembly</span><span class="ski-pct blue-text">88%</span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="88"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>OS Installation &amp; Config</span><span class="ski-pct blue-text">90%</span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="90"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Network Configuration</span><span class="ski-pct blue-text">82%</span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="82"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>IT Troubleshooting</span><span class="ski-pct blue-text">87%</span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="87"></div></div></div>
-              <div class="skill-item"><div class="ski-head"><span>Data Recovery</span><span class="ski-pct blue-text">75%</span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="75"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>PC Repair &amp; Assembly</span><span class="ski-pct blue-text"></span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="88"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>OS Installation &amp; Config</span><span class="ski-pct blue-text"></span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="90"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Network Configuration</span><span class="ski-pct blue-text"></span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="82"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>IT Troubleshooting</span><span class="ski-pct blue-text"></span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="87"></div></div></div>
+              <div class="skill-item"><div class="ski-head"><span>Data Recovery</span><span class="ski-pct blue-text"></span></div><div class="ski-track"><div class="ski-fill blue-fill" data-w="75"></div></div></div>
             </div>
           </div>
         </div>
@@ -369,94 +362,12 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="section bg-alt">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="section-tag">Testimonials</span>
-          <h2 class="section-title">What People Say</h2>
-        </div>
-        <div class="reveal">
-          <div class="testimonial-card">
-            <i class="bi bi-quote testi-quote"></i>
-            <div class="testi-stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p class="testi-text" id="testi-text"></p>
-            <div class="testi-author">
-              <p class="testi-name" id="testi-name"></p>
-              <p class="testi-role" id="testi-role"></p>
-            </div>
-          </div>
-          <div class="testi-controls">
-            <button class="testi-btn" onclick="prevTesti()" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
-            <div class="testi-dots" id="testi-dots"></div>
-            <button class="testi-btn" onclick="nextTesti()" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
-          </div>
-        </div>
-        <div class="brand-row reveal">
-          <span>RMM Inc.</span><span>LGU Del Carmen</span><span>SPES — DOLE</span><span>Siargao Businesses</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pricing -->
     <section id="pricing" class="section bg-base">
       <div class="container">
         <div class="section-header reveal">
           <span class="section-tag">Pricing</span>
           <h2 class="section-title">Simple, Honest Pricing</h2>
           <p class="section-desc">Transparent rates designed for Filipino businesses and international clients alike. Every peso delivers real value.</p>
-        </div>
-        <div class="pricing-grid">
-          <div class="plan-card reveal">
-            <h3>Starter</h3>
-            <div class="plan-price"><span class="plan-amt">₱*****</span><span class="plan-per">/ per project</span></div>
-            <p class="plan-desc">Great for individuals and small businesses needing a single creative deliverable.</p>
-            <ul class="plan-features">
-              <li><i class="bi bi-check-lg accent"></i>Logo or brand mark design</li>
-              <li><i class="bi bi-check-lg accent"></i>Up to 3 social media graphics</li>
-              <li><i class="bi bi-check-lg accent"></i>2 revision rounds</li>
-              <li><i class="bi bi-check-lg accent"></i>Source files (PNG, JPG)</li>
-              <li><i class="bi bi-check-lg accent"></i>5–7 day delivery</li>
-              <li><i class="bi bi-check-lg accent"></i>Email communication</li>
-            </ul>
-            <button class="plan-btn plan-btn-outline" onclick="navScrollTo('contact')">Get Started <i class="bi bi-arrow-right"></i></button>
-          </div>
-          <div class="plan-card plan-featured reveal">
-            <div class="plan-badge">Most Popular</div>
-            <h3>Professional</h3>
-            <div class="plan-price"><span class="plan-amt">₱*****</span><span class="plan-per">/ per project</span></div>
-            <p class="plan-desc">Perfect for growing businesses needing a complete visual identity or marketing package.</p>
-            <ul class="plan-features">
-              <li><i class="bi bi-check-lg accent"></i>Full brand identity package</li>
-              <li><i class="bi bi-check-lg accent"></i>Logo + 10 social media graphics</li>
-              <li><i class="bi bi-check-lg accent"></i>Basic SEO setup</li>
-              <li><i class="bi bi-check-lg accent"></i>Social media content calendar</li>
-              <li><i class="bi bi-check-lg accent"></i>5 revision rounds</li>
-              <li><i class="bi bi-check-lg accent"></i>Priority response</li>
-              <li><i class="bi bi-check-lg accent"></i>10–14 day delivery</li>
-              <li><i class="bi bi-check-lg accent"></i>Editable Canva templates</li>
-            </ul>
-            <button class="plan-btn plan-btn-primary" onclick="navScrollTo('contact')">Choose Professional <i class="bi bi-arrow-right"></i></button>
-          </div>
-          <div class="plan-card reveal">
-            <h3>Enterprise</h3>
-            <div class="plan-price"><span class="plan-amt">Custom</span><span class="plan-per">/ discuss scope</span></div>
-            <p class="plan-desc">For businesses needing ongoing design, marketing management, and IT support.</p>
-            <ul class="plan-features">
-              <li><i class="bi bi-check-lg accent"></i>Monthly design retainer</li>
-              <li><i class="bi bi-check-lg accent"></i>Full digital marketing management</li>
-              <li><i class="bi bi-check-lg accent"></i>Social media account management</li>
-              <li><i class="bi bi-check-lg accent"></i>Network setup &amp; IT support</li>
-              <li><i class="bi bi-check-lg accent"></i>Unlimited revisions</li>
-              <li><i class="bi bi-check-lg accent"></i>Weekly progress reports</li>
-              <li><i class="bi bi-check-lg accent"></i>Dedicated communication channel</li>
-              <li><i class="bi bi-check-lg accent"></i>Performance analytics</li>
-              <li><i class="bi bi-check-lg accent"></i>Long-term partnership</li>
-            </ul>
-            <button class="plan-btn plan-btn-outline" onclick="navScrollTo('contact')">Let's Talk <i class="bi bi-arrow-right"></i></button>
-          </div>
         </div>
         <p class="pricing-note reveal">All prices are negotiable based on project scope. Contact me for a free consultation.</p>
       </div>
@@ -516,7 +427,6 @@
       </div>
     </section>
 
-    <!-- Newsletter -->
     <section class="section bg-base">
       <div class="container">
         <div class="newsletter reveal">
@@ -532,7 +442,6 @@
       </div>
     </section>
 
-    <!-- Contact -->
     <section id="contact" class="section bg-alt">
       <div class="container">
         <div class="section-header reveal">
@@ -582,7 +491,6 @@
               <a href="tel:+639276712960" class="contact-link"><div class="cl-ico"><i class="bi bi-telephone accent"></i></div><div><p class="cl-lbl">Phone</p><p>0927 671 296</p></div></a>
               <div class="contact-link"><div class="cl-ico"><i class="bi bi-geo-alt accent"></i></div><div><p class="cl-lbl">Location</p><p>Siargao, Philippines</p></div></div>
               <a href="#" class="contact-link"><div class="cl-ico"><i class="bi bi-linkedin accent"></i></div><div><p class="cl-lbl">LinkedIn</p><p>Connect with me</p></div></a>
-              <a href="#" class="contact-link"><div class="cl-ico"><i class="bi bi-github accent"></i></div><div><p class="cl-lbl">GitHub</p><p>View my code</p></div></a>
             </div>
             <div class="avail-box">
               <span class="avail-dot"></span>
@@ -666,5 +574,6 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="showcase.js"></script>
 </body>
 </html>
