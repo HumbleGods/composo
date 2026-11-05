@@ -1,6 +1,6 @@
 /* 3D showcase + scene color (inspired by scroll-driven product sites) */
 :root{--scene:#10b981}
-body{transition:background .3s,color .3s}
+body{transition:background .2s,color .2s}
 .scene-glow{position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.18;mix-blend-mode:screen;
   background:radial-gradient(60vw 50vh at 50% 35%,color-mix(in srgb,var(--scene) 40%,transparent),transparent 70%);
   transition:background 1s ease}
